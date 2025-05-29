@@ -7,7 +7,7 @@ do{
     if(filter_var($number, FILTER_VALIDATE_INT) !== false && $number > 0){
 
 
-        if($number%2 == 0 ){
+        if($number % 2 == 0 ){
 
             for($i=$number; $i>=0; $i--){
 
@@ -21,7 +21,7 @@ do{
             for($i=$number; $i>0; $i--){
 
                 if($i%2 != 0 ){
-                echo $i;
+                    echo $i;
                 }
 
             }
